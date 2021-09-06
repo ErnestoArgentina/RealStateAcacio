@@ -244,10 +244,19 @@
                                     @csrf
 
                                     <div class="form-group has-icon has-label">
+                                        <label for="formSearchUpLocation3">Preco</label>
+                                        <input
+                                            name="preco"
+                                            type="number" class="form-control"
+                                            placeholder="Preco">
+                                        <span class="form-control-icon"><i class="fa fa-dollar"></i></span>
+                                    </div>
+
+                                    <div class="form-group has-icon has-label">
                                         <label for="formSearchUpLocation3">Quartos</label>
                                         <input
                                             name="quartos"
-                                            type="text" class="form-control" id="formSearchUpLocation3"
+                                            type="text" class="form-control"
                                             placeholder="Numero de quartos">
                                         <span class="form-control-icon"><i class="fa fa-map-marker"></i></span>
                                     </div>
@@ -258,6 +267,7 @@
                                                 data-live-search="true"
                                                 data-width="100%"
                                                 data-toggle="tooltip" title="Select">
+                                            <option>Seleccione o bairro</option>
 
                                             @forelse($bairros as $bairro)
                                                 <option value="{{$bairro->id}}">{{$bairro->descricao}}</option>
