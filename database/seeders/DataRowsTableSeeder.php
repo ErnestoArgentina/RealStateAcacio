@@ -437,134 +437,6 @@ class DataRowsTableSeeder extends Seeder
             ),
             26 => 
             array (
-                'id' => 27,
-                'data_type_id' => 7,
-                'field' => 'id',
-                'type' => 'text',
-                'display_name' => 'Id',
-                'required' => 1,
-                'browse' => 0,
-                'read' => 0,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => '{}',
-                'order' => 1,
-            ),
-            27 => 
-            array (
-                'id' => 28,
-                'data_type_id' => 7,
-                'field' => 'data',
-                'type' => 'date',
-                'display_name' => 'Data',
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 3,
-            ),
-            28 => 
-            array (
-                'id' => 29,
-                'data_type_id' => 7,
-                'field' => 'hora_inicio',
-                'type' => 'time',
-                'display_name' => 'Hora Inicio',
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 4,
-            ),
-            29 => 
-            array (
-                'id' => 30,
-                'data_type_id' => 7,
-                'field' => 'hora_fim',
-                'type' => 'time',
-                'display_name' => 'Hora Fim',
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 5,
-            ),
-            30 => 
-            array (
-                'id' => 31,
-                'data_type_id' => 7,
-                'field' => 'igreja_id',
-                'type' => 'text',
-                'display_name' => 'Igreja Id',
-                'required' => 1,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 2,
-            ),
-            31 => 
-            array (
-                'id' => 32,
-                'data_type_id' => 7,
-                'field' => 'created_at',
-                'type' => 'timestamp',
-                'display_name' => 'Created At',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 0,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 6,
-            ),
-            32 => 
-            array (
-                'id' => 33,
-                'data_type_id' => 7,
-                'field' => 'updated_at',
-                'type' => 'timestamp',
-                'display_name' => 'Updated At',
-                'required' => 0,
-                'browse' => 0,
-                'read' => 0,
-                'edit' => 0,
-                'add' => 0,
-                'delete' => 0,
-                'details' => '{}',
-                'order' => 7,
-            ),
-            33 => 
-            array (
-                'id' => 34,
-                'data_type_id' => 7,
-                'field' => 'culto_belongsto_igreja_relationship',
-                'type' => 'relationship',
-                'display_name' => 'igrejas',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{"model":"App\\\\Models\\\\Igreja","table":"igrejas","type":"belongsTo","column":"igreja_id","key":"id","label":"localizacao","pivot_table":"agendamentos","pivot":"0","taggable":null}',
-                'order' => 8,
-            ),
-            34 => 
-            array (
                 'id' => 35,
                 'data_type_id' => 8,
                 'field' => 'id',
@@ -579,7 +451,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            35 => 
+            27 => 
             array (
                 'id' => 36,
                 'data_type_id' => 8,
@@ -595,7 +467,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            36 => 
+            28 => 
             array (
                 'id' => 37,
                 'data_type_id' => 8,
@@ -611,7 +483,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            37 => 
+            29 => 
             array (
                 'id' => 38,
                 'data_type_id' => 8,
@@ -627,7 +499,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            38 => 
+            30 => 
             array (
                 'id' => 39,
                 'data_type_id' => 9,
@@ -643,7 +515,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            39 => 
+            31 => 
             array (
                 'id' => 40,
                 'data_type_id' => 9,
@@ -659,7 +531,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            40 => 
+            32 => 
             array (
                 'id' => 41,
                 'data_type_id' => 9,
@@ -675,7 +547,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            41 => 
+            33 => 
             array (
                 'id' => 42,
                 'data_type_id' => 9,
@@ -691,7 +563,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            42 => 
+            34 => 
             array (
                 'id' => 43,
                 'data_type_id' => 9,
@@ -707,7 +579,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            43 => 
+            35 => 
             array (
                 'id' => 44,
                 'data_type_id' => 9,
@@ -723,7 +595,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 7,
             ),
-            44 => 
+            36 => 
             array (
                 'id' => 45,
                 'data_type_id' => 9,
@@ -739,7 +611,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 8,
             ),
-            45 => 
+            37 => 
             array (
                 'id' => 46,
                 'data_type_id' => 9,
@@ -755,7 +627,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 9,
             ),
-            46 => 
+            38 => 
             array (
                 'id' => 47,
                 'data_type_id' => 9,
@@ -771,7 +643,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{"options":{"0":"N\\u00e3o tem","1":"Tem"}}',
                 'order' => 10,
             ),
-            47 => 
+            39 => 
             array (
                 'id' => 48,
                 'data_type_id' => 9,
@@ -787,7 +659,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            48 => 
+            40 => 
             array (
                 'id' => 49,
                 'data_type_id' => 9,
@@ -803,7 +675,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 11,
             ),
-            49 => 
+            41 => 
             array (
                 'id' => 50,
                 'data_type_id' => 9,
@@ -819,7 +691,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 12,
             ),
-            50 => 
+            42 => 
             array (
                 'id' => 51,
                 'data_type_id' => 9,
@@ -832,10 +704,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"model":"App\\\\Models\\\\Bairro","table":"bairros","type":"belongsTo","column":"bairro_id","key":"id","label":"descricao","pivot_table":"bairro_vizinho","pivot":"0","taggable":"0"}',
+                'details' => '{"model":"App\\\\Models\\\\Bairro","table":"bairros","type":"belongsTo","column":"bairro_id","key":"id","label":"descricao","pivot_table":"bairro_casa","pivot":"0","taggable":"0"}',
                 'order' => 13,
             ),
-            51 => 
+            43 => 
             array (
                 'id' => 52,
                 'data_type_id' => 8,
@@ -851,7 +723,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{"model":"App\\\\Models\\\\Bairro","table":"bairros","type":"belongsToMany","column":"id","key":"id","label":"descricao","pivot_table":"related_bairro","pivot":"1","taggable":"on"}',
                 'order' => 5,
             ),
-            52 => 
+            44 => 
             array (
                 'id' => 53,
                 'data_type_id' => 10,
@@ -867,7 +739,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            53 => 
+            45 => 
             array (
                 'id' => 54,
                 'data_type_id' => 10,
@@ -883,7 +755,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            54 => 
+            46 => 
             array (
                 'id' => 55,
                 'data_type_id' => 10,
@@ -899,7 +771,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            55 => 
+            47 => 
             array (
                 'id' => 56,
                 'data_type_id' => 10,
@@ -915,7 +787,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            56 => 
+            48 => 
             array (
                 'id' => 57,
                 'data_type_id' => 10,
@@ -931,7 +803,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 5,
             ),
-            57 => 
+            49 => 
             array (
                 'id' => 58,
                 'data_type_id' => 10,
@@ -947,7 +819,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{"model":"App\\\\Models\\\\Bairro","table":"bairros","type":"belongsTo","column":"bairro_id","key":"id","label":"descricao","pivot_table":"bairros","pivot":"0","taggable":"0"}',
                 'order' => 6,
             ),
-            58 => 
+            50 => 
             array (
                 'id' => 59,
                 'data_type_id' => 10,
@@ -963,21 +835,21 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{"model":"App\\\\Models\\\\Bairro","table":"bairros","type":"belongsTo","column":"related_id","key":"id","label":"descricao","pivot_table":"bairros","pivot":"0","taggable":"0"}',
                 'order' => 7,
             ),
-            59 => 
+            51 => 
             array (
-                'id' => 60,
+                'id' => 61,
                 'data_type_id' => 9,
-                'field' => 'casa_belongstomany_bairro_relationship',
-                'type' => 'relationship',
-                'display_name' => 'bairros',
+                'field' => 'tipo_imovel',
+                'type' => 'select_dropdown',
+                'display_name' => 'Tipo Imovel',
                 'required' => 0,
                 'browse' => 1,
                 'read' => 1,
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"model":"App\\\\Models\\\\Bairro","table":"bairros","type":"belongsToMany","column":"id","key":"id","label":"descricao","pivot_table":"bairro_casa","pivot":"1","taggable":null}',
-                'order' => 14,
+                'details' => '{"options":{"Apartamento":"Apartamento","Escrit\\u00f3rio":"Escrit\\u00f3rio","Flat":"Flat"}}',
+                'order' => 4,
             ),
         ));
         
