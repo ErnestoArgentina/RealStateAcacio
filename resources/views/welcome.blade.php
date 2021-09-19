@@ -423,18 +423,18 @@
                                         <div class="thumbnail no-border no-padding thumbnail-property-card">
                                             <div class="media">
 {{--                                                <span class="p-price">$90,250</span>--}}
-                                                <span class="p-price">${{$casa->preco}}</span>
+                                                <span class="p-price">{{$casa->preco}}MZN</span>
 {{--                                                <a class="media-link" data-gal="prettyPhoto" href="assets/img/preview/property/featured-1200x800x1.jpg">--}}
                                                 <a class="media-link" data-gal="prettyPhoto" href="/storage/{{$casa->url}}">
                                                     <img src="/storage/{{$casa->url}}" alt=""/>
                                                     <span class="icon-view"><strong><i class="fa fa-arrows-alt"></i></strong></span></a>
                                             </div>
                                             <div class="caption text-center">
-                                                <h4 class="caption-title"><a href="#">{{$casa->bairro->descricao}}</a></h4>
+                                                <h4 class="caption-title"><a href="/details/{{$casa->id}}">{{$casa->bairro->descricao}}</a></h4>
 {{--                                                <div class="caption-text">30 Webber Street, London, UK</div>--}}
                                                 <div class="caption-text">{{$casa->localizacao}}</div>
                                                 <div class="buttons">
-                                                    <a class="btn btn-theme ripple-effect" href="#contact-form">View property</a>
+                                                    <a class="btn btn-theme ripple-effect" href="/details/{{$casa->id}}">Ver mais</a>
                                                 </div>
                                                 <table class="table">
                                                     <tr>
