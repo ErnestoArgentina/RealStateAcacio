@@ -9,30 +9,30 @@
     <title>Real Estate</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('assets/ico/apple-touch-icon-144-precomposed.png')}}">
+    <link rel="shortcut icon" href="{{asset('assets/ico/favicon.ico')}}">
 
     <!-- CSS Global -->
-    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
-    <link href="assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
-    <link href="assets/plugins/owl-carousel2/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/plugins/owl-carousel2/assets/owl.theme.default.min.css" rel="stylesheet">
-    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
-    <link href="assets/plugins/swiper/css/swiper.min.css" rel="stylesheet">
-    <link href="assets/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="{{asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/bootstrap-select/css/bootstrap-select.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/fontawesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/prettyphoto/css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/owl-carousel2/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/owl-carousel2/assets/owl.theme.default.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/swiper/css/swiper.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css')}}" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="assets/css/theme.css" rel="stylesheet">
-    <link href="assets/css/theme-blue-1.css" rel="stylesheet" id="theme-config-link">
+    <link href="{{asset('assets/css/theme.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/theme-blue-1.css')}}" rel="stylesheet" id="theme-config-link">
 
     <!-- Head Libs -->
-    <script src="assets/plugins/modernizr.custom.js"></script>
+    <script src="{{asset('assets/plugins/modernizr.custom.js')}}'"></script>
 
     <!--[if lt IE 9]>
-    <script src="assets/plugins/iesupport/html5shiv.js"></script>
-    <script src="assets/plugins/iesupport/respond.min.js"></script>
+    <script src="{{asset('assets/plugins/iesupport/html5shiv.js')}}"></script>
+    <script src="{{asset('assets/plugins/iesupport/respond.min.js')}}"></script>
     <![endif]-->
 </head>
 <body id="home" class="wide">
@@ -40,7 +40,7 @@
 <div id="preloader">
     <div id="loading-center">
         <div id="loading-center-absolute">
-            <div class="loader-logo"><img src="assets/img/loader-logo.png" alt=""></div>
+            <div class="loader-logo"><img src="{{asset('assets/img/loader-logo.png')}}" alt=""></div>
             <div class="object" id="first_object"></div>
             <div class="object" id="second_object"></div>
             <div class="object" id="third_object"></div>
@@ -65,7 +65,7 @@
                                     <!-- navigation menu -->
                                     <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
                                     <ul class="nav sf-menu">
-                                        <li class="active"><a href="/">Home</a>
+                                        <li class="active"><a href="/">Inicio</a>
                                             {{--                                                    <ul>--}}
                                             {{--                                                        <li><a href="index.html">Home 1</a></li>--}}
                                             {{--                                                        <li><a href="index-2.html">Home 2</a></li>--}}
@@ -96,7 +96,7 @@
                     <!-- Logo -->
                     <div class="col-md-2 no-padding top-logo">
                         <div class="logo">
-                            <a href="/"><img src="assets/img/logo-reestate.png" alt="Real Estate"/></a>
+                            <a href="/"><img src="{{asset('assets/img/logo-reestate.png')}}" alt="Real Estate"/></a>
                         </div>
                     </div>
                     <!-- /Logo -->
@@ -154,14 +154,14 @@
 {{--                                                </li>--}}
 {{--                                            </ul>--}}
 {{--                                        </li>--}}
-                                        <li><a href="blog.html">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Blog Sidebar Left </a></li>
-                                                <li><a href="blog-right.html">Blog Sidebar Right</a></li>
-                                                <li><a href="blog-post.html">Blog Single Post</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+{{--                                        <li><a href="blog.html">Blog</a>--}}
+{{--                                            <ul>--}}
+{{--                                                <li><a href="blog.html">Blog Sidebar Left </a></li>--}}
+{{--                                                <li><a href="blog-right.html">Blog Sidebar Right</a></li>--}}
+{{--                                                <li><a href="blog-post.html">Blog Single Post</a></li>--}}
+{{--                                            </ul>--}}
+{{--                                        </li>--}}
+                                        <li><a href="contact.html">Contacto</a></li>
                                         <li>
                                             <ul class="social-icons">
                                                 <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -241,34 +241,34 @@
 <!-- /WRAPPER -->
 
 <!-- JS Global -->
-<script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
-<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
-<script src="assets/plugins/superfish/js/superfish.min.js"></script>
-<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
-<script src="assets/plugins/owl-carousel2/owl.carousel.min.js"></script>
-<script src="assets/plugins/jquery.sticky.min.js"></script>
-<script src="assets/plugins/jquery.easing.min.js"></script>
-<script src="assets/plugins/jquery.smoothscroll.min.js"></script>
-<!--<script src="assets/plugins/smooth-scrollbar.min.js"></script>-->
-<script src="assets/plugins/wow/wow.min.js"></script>
+<script src="{{asset('assets/plugins/jquery/jquery-1.11.1.min.js')}}"></script>
+<script src="{{asset('assets/plugins/bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/plugins/bootstrap-select/js/bootstrap-select.min.js')}}"></script>
+<script src="{{asset('assets/plugins/superfish/js/superfish.min.js')}}"></script>
+<script src="{{asset('assets/plugins/prettyphoto/js/jquery.prettyPhoto.js')}}"></script>
+<script src="{{asset('assets/plugins/owl-carousel2/owl.carousel.min.js')}}"></script>
+<script src="{{asset('assets/plugins/jquery.sticky.min.js')}}"></script>
+<script src="{{asset('assets/plugins/jquery.easing.min.js')}}"></script>
+<script src="{{asset('assets/plugins/jquery.smoothscroll.min.js')}}"></script>
+<!--<script src="{{asset('assets/plugins/smooth-scrollbar.min.js')}}"></script>-->
+<script src="{{asset('assets/plugins/wow/wow.min.js')}}"></script>
 <script>
     // WOW - animated content
     new WOW().init();
 </script>
-<script src="assets/plugins/swiper/js/swiper.jquery.min.js"></script>
-<script src="assets/plugins/datetimepicker/js/moment-with-locales.min.js"></script>
-<script src="assets/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script src="{{asset('assets/plugins/swiper/js/swiper.jquery.min.js')}}"></script>
+<script src="{{asset('assets/plugins/datetimepicker/js/moment-with-locales.min.js')}}"></script>
+<script src="{{asset('assets/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js')}}"></script>
 
 <!-- JS Page Level -->
-<script src="assets/js/theme-ajax-mail.js"></script>
-<script src="assets/js/theme.js"></script>
-<script src="assets/js/sweetalert.js"></script>
+<script src="{{asset('assets/js/theme-ajax-mail.js')}}"></script>
+<script src="{{asset('assets/js/theme.js')}}"></script>
+<script src="{{asset('assets/js/sweetalert.js')}}"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="assets/plugins/jquery.cookie.js"></script>
+<script src="{{asset('assets/plugins/jquery.cookie.js')}}"></script>
 <!--<![endif]-->
 
 <script>
