@@ -26,6 +26,7 @@ use \App\Http\Controllers\AvaliacaoController;
 
 Route::get('/',[\App\Http\Controllers\CasaController::class,"index"]);
 Route::get('/listing',[\App\Http\Controllers\CasaController::class,"casas"]);
+Route::get('/details/{id}',[\App\Http\Controllers\CasaController::class,"detalhes"]);
 Route::post('/contacto',[\App\Http\Controllers\ContactoController::class,"store"]);
 Route::get('/profile', function () {
     return view('general.profile');
