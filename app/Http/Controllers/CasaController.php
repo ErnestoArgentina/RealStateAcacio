@@ -19,7 +19,9 @@ class CasaController extends Controller
         if ($request->bairro_id or $request->preco or $request->quartos) {
             $casas = Casa::whereBetween("preco", [$request->preco - 2000, $request->preco + 2000])->orWhere("bairro_id", $request->bairro_id)->orWhere("quartos", $request->quartos)->with("bairro")->get();
             $bairrosv = RelatedBairro::where("bairro_id",$request->bairro_id)->get()->pluck('related_id');
+//            return $bairrosv;
             $vizinhos = Casa::whereIn("bairro_id", $bairrosv)->with("bairro")->get();
+//            return $vizinhos;
         } else {
             $casas = Casa::with("bairro")->get();
             $vizinhos = null;
