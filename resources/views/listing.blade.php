@@ -49,9 +49,9 @@
 {{--                                <div class="media" >--}}
 {{--                                    <a class="media-link" data-gal="prettyPhoto" href="/storage/{{$casa->url}}">--}}
                                         <img src="/storage/{{$casa->url}}" alt=""/>
-{{--                                        <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>--}}
+                                        <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
 {{--                                    </a>--}}
-                                </div>
+{{--                                </div>--}}
                                 <br>
                                 <div class="caption">
                                     <div class="rating">
