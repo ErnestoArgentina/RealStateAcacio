@@ -58,7 +58,7 @@
                                         <a href="#"> <img alt="" src="assets/img/map-marker-icon.png"> </a>
                                     </div>
                                     <h4 class="caption-title"><a href="details/{{$casa->id}}">{{$casa->bairro->descricao}}</a></h4>
-                                    <h5 class="caption-title-sub">${{$casa->preco}}</h5>
+                                    <h5 class="caption-title-sub">{{$casa->preco}}MZN</h5>
                                     <div class="caption-text">{{$casa->descricao}}</div>
                                     <table class="table">
                                         <tr>
