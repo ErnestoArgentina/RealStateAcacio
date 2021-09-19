@@ -13,4 +13,9 @@ class Casa extends Model
     {
         return $this->belongsTo(Bairro::class);
     }
+
+    public function imagens()
+    {
+        return $this->hasMany(Imagem::class);
+    }
 }
