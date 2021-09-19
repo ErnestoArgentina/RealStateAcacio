@@ -39,49 +39,54 @@
                 <div class="col-md-9 content property-listing" id="content">
 
                     <!-- Car Listing -->
+                    <div class="row">
 
-                    @forelse($casas as $casa)
 
-                        <div class="thumbnail no-border no-padding thumbnail-property-card clearfix">
-                            <div class="media">
-                                <a class="media-link" data-gal="prettyPhoto" href="/storage/{{$casa->url}}">
-                                    <img src="/storage/{{$casa->url}}" alt=""/>
-                                    <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>
-                                </a>
-                            </div>
-                            <div class="caption">
-                                <div class="rating">
-                                    <a href="#"> <img alt="" src="assets/img/map-marker-icon.png"> </a>
+                        @forelse($casas as $casa)
+
+                            <div class="thumbnail no-border no-padding thumbnail-property-card clearfix"
+                                 style="height: max-content">
+{{--                                <div class="media" >--}}
+{{--                                    <a class="media-link" data-gal="prettyPhoto" href="/storage/{{$casa->url}}">--}}
+                                        <img src="/storage/{{$casa->url}}" alt=""/>
+{{--                                        <span class="icon-view"><strong><i class="fa fa-eye"></i></strong></span>--}}
+{{--                                    </a>--}}
                                 </div>
-                                <h4 class="caption-title"><a href="#">{{$casa->bairro->descricao}}</a></h4>
-                                <h5 class="caption-title-sub">${{$casa->preco}}</h5>
-                                <div class="caption-text">{{$casa->descricao}}</div>
-                                <table class="table">
-                                    <tr>
-                                        {{--                                    <td><i class="fa fa-expand"></i> 250 sq ft </td>--}}
-                                        {{--                                    <td><i class="fa fa-bed"></i> 1 Bedroom</td>--}}
-                                        {{--                                    <td><i class="fa fa-tint"></i> {{$casa->banheiros}}</td>--}}
+                                <br>
+                                <div class="caption">
+                                    <div class="rating">
+                                        <a href="#"> <img alt="" src="assets/img/map-marker-icon.png"> </a>
+                                    </div>
+                                    <h4 class="caption-title"><a href="#">{{$casa->bairro->descricao}}</a></h4>
+                                    <h5 class="caption-title-sub">${{$casa->preco}}</h5>
+                                    <div class="caption-text">{{$casa->descricao}}</div>
+                                    <table class="table">
+                                        <tr>
+                                            {{--                                    <td><i class="fa fa-expand"></i> 250 sq ft </td>--}}
+                                            {{--                                    <td><i class="fa fa-bed"></i> 1 Bedroom</td>--}}
+                                            {{--                                    <td><i class="fa fa-tint"></i> {{$casa->banheiros}}</td>--}}
 
-                                        <td><i class="fa fa-expand"></i> {{$casa->metros_quadrado}} m2</td>
-                                        {{--                                                        <td><i class="fa fa-bed"></i> 1 Bedroom</td>--}}
-                                        <td><i class="fa fa-bed"></i> {{$casa->quartos}} Quartos</td>
-                                        {{--                                                        <td><i class="fa fa-tint"></i> 1 Bathroom</td>--}}
-                                        <td><i class="fa fa-tint"></i> {{$casa->banheiros}} Banheiros</td>
+                                            <td><i class="fa fa-expand"></i> {{$casa->metros_quadrado}} m2</td>
+                                            {{--                                                        <td><i class="fa fa-bed"></i> 1 Bedroom</td>--}}
+                                            <td><i class="fa fa-bed"></i> {{$casa->quartos}} Quartos</td>
+                                            {{--                                                        <td><i class="fa fa-tint"></i> 1 Bathroom</td>--}}
+                                            <td><i class="fa fa-tint"></i> {{$casa->banheiros}} Banheiros</td>
 
-                                        <td class="buttons"><a class="btn btn-theme" href="#contact-form">Contactar</a></td>
-                                    </tr>
-                                </table>
+                                            <td class="buttons"><a class="btn btn-theme"
+                                                                   href="#contact-form">Contactar</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
-                        </div>
-                    @empty
+                        @empty
 
-                        <div class="thumbnail no-border no-padding thumbnail-property-card clearfix">
-                            <p class="alert alert-danger">
-                                Nao foram encontradas residencias com os dados da pesquisa
-                            </p>
-                        </div>
-                @endforelse
-
+                            <div class="thumbnail no-border no-padding thumbnail-property-card clearfix">
+                                <p class="alert alert-danger">
+                                    Nao foram encontradas residencias com os dados da pesquisa
+                                </p>
+                            </div>
+                        @endforelse
+                    </div>
 
 
                 {{--                    <div class="thumbnail no-border no-padding thumbnail-property-card clearfix">--}}
@@ -575,7 +580,8 @@
                                         <label class="sr-only" for="titulo">Titulo</label>
                                         <input
                                             required
-                                            type="text" name="titulo" id="titulo" placeholder="Titulo" value="" size="30"
+                                            type="text" name="titulo" id="titulo" placeholder="Titulo" value=""
+                                            size="30"
                                             data-toggle="tooltip" title="Titulo is required"
                                             class="form-control placeholder"/>
                                         <span class="form-control-icon"><i class="fa fa-pencil"></i></span>
