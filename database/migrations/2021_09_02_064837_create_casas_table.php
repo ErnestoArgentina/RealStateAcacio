@@ -16,6 +16,7 @@ class CreateCasasTable extends Migration
         Schema::create('casas', function (Blueprint $table) {
             $table->id();
             $table->text("descricao");
+            $table->text("tipo_imovel")->nullable()->default("casa");
             $table->string("localizacao");
             $table->string("url");
             $table->string("metros_quadrado");
