@@ -57,7 +57,7 @@
                                     <div class="rating">
                                         <a href="#"> <img alt="" src="assets/img/map-marker-icon.png"> </a>
                                     </div>
-                                    <h4 class="caption-title"><a href="#">{{$casa->bairro->descricao}}</a></h4>
+                                    <h4 class="caption-title"><a href="details/{{$casa->id}}">{{$casa->bairro->descricao}}</a></h4>
                                     <h5 class="caption-title-sub">${{$casa->preco}}</h5>
                                     <div class="caption-text">{{$casa->descricao}}</div>
                                     <table class="table">
@@ -431,7 +431,7 @@
 
 
 
-    @if($vizinhos!=null)
+    @if($vizinhos!=null or $vizinhos!=[])
         <section class="page-section">
             <div class="container">
 
