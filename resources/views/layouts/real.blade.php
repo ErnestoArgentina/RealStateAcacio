@@ -96,7 +96,7 @@
                     <!-- Logo -->
                     <div class="col-md-2 no-padding top-logo">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo-reestate.png" alt="Real Estate"/></a>
+                            <a href="/"><img src="assets/img/logo-reestate.png" alt="Real Estate"/></a>
                         </div>
                     </div>
                     <!-- /Logo -->
@@ -110,50 +110,50 @@
                                     <!-- navigation menu -->
                                     <a href="#" class="menu-toggle-close btn"><i class="fa fa-times"></i></a>
                                     <ul class="nav sf-menu">
-                                        <li class="megamenu sale"><a href="#">Features</a>
-                                            <ul>
-                                                <li class="row">
-                                                    <div class="col-md-6">
-                                                        <h4 class="block-title"><span>Portfolio</span></h4>
-                                                        <ul>
-                                                            <li><a href="portfolio.html">Portfolio 3 Columns</a></li>
-                                                            <li><a href="portfolio-4col.html">Portfolio 4 Columns</a>
-                                                            </li>
-                                                            <li><a href="portfolio-alt.html">Portfolio Alternate</a>
-                                                            </li>
-                                                            <li><a href="portfolio-single.html">Portfolio Single</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h4 class="block-title"><span>Pages</span></h4>
-                                                        <ul>
-                                                            <li><a href="shortcodes.html">Shortcodes</a></li>
-                                                            <li><a href="typography.html">Typography</a></li>
-                                                            <li><a href="coming-soon.html">Coming soon</a></li>
-                                                            <li><a href="error-page.html">404 Page</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h4 class="block-title"><span>Pages</span></h4>
-                                                        <ul>
-                                                            <li><a href="/listing">Property Listing</a></li>
-                                                            <li><a href="property_single.html">Single Property</a></li>
-                                                            <li><a href="about.html">About</a></li>
-                                                            <li><a href="login.html">Login</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h4 class="block-title"><span>Paragraph</span></h4>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                            elit...</p>
-                                                        <p>Suspendisse molestie est nec tortor placerat, vel
-                                                            pellentesque metus sollicitudin. Suspendisse congue sem
-                                                            mauris, at ultrices felis blandit non.</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
+{{--                                        <li class="megamenu sale"><a href="#">Features</a>--}}
+{{--                                            <ul>--}}
+{{--                                                <li class="row">--}}
+{{--                                                    <div class="col-md-6">--}}
+{{--                                                        <h4 class="block-title"><span>Portfolio</span></h4>--}}
+{{--                                                        <ul>--}}
+{{--                                                            <li><a href="portfolio.html">Portfolio 3 Columns</a></li>--}}
+{{--                                                            <li><a href="portfolio-4col.html">Portfolio 4 Columns</a>--}}
+{{--                                                            </li>--}}
+{{--                                                            <li><a href="portfolio-alt.html">Portfolio Alternate</a>--}}
+{{--                                                            </li>--}}
+{{--                                                            <li><a href="portfolio-single.html">Portfolio Single</a>--}}
+{{--                                                            </li>--}}
+{{--                                                        </ul>--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-md-6">--}}
+{{--                                                        <h4 class="block-title"><span>Pages</span></h4>--}}
+{{--                                                        <ul>--}}
+{{--                                                            <li><a href="shortcodes.html">Shortcodes</a></li>--}}
+{{--                                                            <li><a href="typography.html">Typography</a></li>--}}
+{{--                                                            <li><a href="coming-soon.html">Coming soon</a></li>--}}
+{{--                                                            <li><a href="error-page.html">404 Page</a></li>--}}
+{{--                                                        </ul>--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-md-6">--}}
+{{--                                                        <h4 class="block-title"><span>Pages</span></h4>--}}
+{{--                                                        <ul>--}}
+{{--                                                            <li><a href="/listing">Property Listing</a></li>--}}
+{{--                                                            <li><a href="property_single.html">Single Property</a></li>--}}
+{{--                                                            <li><a href="about.html">About</a></li>--}}
+{{--                                                            <li><a href="login.html">Login</a></li>--}}
+{{--                                                        </ul>--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-md-6">--}}
+{{--                                                        <h4 class="block-title"><span>Paragraph</span></h4>--}}
+{{--                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing--}}
+{{--                                                            elit...</p>--}}
+{{--                                                        <p>Suspendisse molestie est nec tortor placerat, vel--}}
+{{--                                                            pellentesque metus sollicitudin. Suspendisse congue sem--}}
+{{--                                                            mauris, at ultrices felis blandit non.</p>--}}
+{{--                                                    </div>--}}
+{{--                                                </li>--}}
+{{--                                            </ul>--}}
+{{--                                        </li>--}}
                                         <li><a href="blog.html">Blog</a>
                                             <ul>
                                                 <li><a href="blog.html">Blog Sidebar Left </a></li>
