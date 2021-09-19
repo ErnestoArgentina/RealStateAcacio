@@ -28,5 +28,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TranslationsTableSeeder::class);
         $this->call(UserRolesTableSeeder::class);
         $this->call(MenuItemsTableSeeder::class);
+        $this->call(BairrosTableSeeder::class);
     }
 }
