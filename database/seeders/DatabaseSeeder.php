@@ -21,7 +21,6 @@ class DatabaseSeeder extends Seeder
         $this->call(DataRowsTableSeeder::class);
         $this->call(FailedJobsTableSeeder::class);
         $this->call(MenusTableSeeder::class);
-        //$this->call(MigrationsTableSeeder::class);
         $this->call(PasswordResetsTableSeeder::class);
         $this->call(PermissionRoleTableSeeder::class);
         $this->call(SettingsTableSeeder::class);
