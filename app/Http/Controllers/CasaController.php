@@ -114,4 +114,10 @@ class CasaController extends Controller
     {
         //
     }
+
+
+    public function detalhes($id){
+        $casa = Casa::where("id", $id)->with("bairro",'imagens')->first();
+        return view("details", compact("casa"));
+    }
 }
